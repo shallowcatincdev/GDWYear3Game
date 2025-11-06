@@ -8,7 +8,7 @@ public class GDWYear3Game : ModuleRules
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
-        PublicDependencyModuleNames.AddRange(new string[] {"Core", "CoreUObject", "Engine", "InputCore", "OnlineSubsystem", "OnlineSubsystemEOS", "OnlineSubsystemUtils"});
+        PublicDependencyModuleNames.AddRange(new string[] {"Core", "CoreUObject", "Engine", "InputCore", "OnlineSubsystem", "OnlineServicesInterface", "OnlineSubsystemEOS", "OnlineSubsystemUtils"});
 
         PrivateDependencyModuleNames.AddRange(new string[] {  });
 
