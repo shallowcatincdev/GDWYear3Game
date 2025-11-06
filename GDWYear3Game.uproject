@@ -3,13 +3,20 @@
 	"EngineAssociation": "5.6",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "GDWYear3Game",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "ModelingToolsEditorMode",
-			"Enabled": true,
-			"TargetAllowList": [
-				"Editor"
-			]
+			"Enabled": true
 		},
 		{
 			"Name": "GameplayStateTree",
@@ -34,6 +41,31 @@
 		{
 			"Name": "WaterAdvanced",
 			"Enabled": true
+		},
+		{
+			"Name": "VisualStudioTools",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64"
+			],
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/362651520df94e4fa65492dbcba44ae2"
+		},
+		{
+			"Name": "EOSIntegrationKit",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/dba0aa05bdd144e69405653a387ad63e"
+		},
+		{
+			"Name": "Fab",
+			"Enabled": false
+		},
+		{
+			"Name": "Bridge",
+			"Enabled": false
+		},
+		{
+			"Name": "MetaHumanSDK",
+			"Enabled": false
 		}
 	],
 	"TargetPlatforms": [
