@@ -74,4 +74,4 @@ Plugins/**/Intermediate/*
 DerivedDataCache/*
 
 # Joyshock
-\Plugins\JoyShockLibrary4Unreal-master\*
+/Plugins/*
